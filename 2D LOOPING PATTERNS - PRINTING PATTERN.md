@@ -1,12 +1,8 @@
 # Exp.No:2d
 ## LOOPING PATTERNS - PRINTING PATTERN
 
----
-
 ### AIM  
 To write a Python program to print a triangular star pattern using loops.
-
----
 
 ### ALGORITHM
 
@@ -21,16 +17,17 @@ To write a Python program to print a triangular star pattern using loops.
    - Print a newline after each row using `print("")` to move to the next line.  
 5. Terminate the program.
 
----
-
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add Your Code Here
-
+a=int(input())
+for i in range(1,a+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print(end="\n")
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/e77de4f1-4356-4e71-870a-79da6cb42627)
 
 ### RESULT
+Thus the program to print a pyramid pattern of numbers based on the number of rows entered by the user has been implemented and executed successfully.
